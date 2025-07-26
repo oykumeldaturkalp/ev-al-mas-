@@ -1,0 +1,34 @@
+while True:
+
+    sayi1_str = input("1. sayıyı girin: ")
+    if (sayi1_str == "x") : 
+        break
+    else : 
+        sayi1 = int(sayi1_str)
+
+    sayi2_str = input("2. sayıyı girin: ")
+    if (sayi2_str == "x") : 
+        break
+    else : 
+        sayi2 = int(sayi2_str)
+    
+    
+    islem = input("yapmak istediğiniz işlemi yazın (+, -, *, /,): ")
+    if (islem == "x") : 
+        break
+    
+        
+    sonuc = 0
+
+    if (islem == "+") :
+        sonuc = sayi1 + sayi2
+    elif (islem == "-") :
+        sonuc = sayi1 - sayi2
+    elif (islem == "*") :
+        sonuc = sayi1 * sayi2
+    elif (islem == "/") :
+        sonuc = sayi1 / sayi2
+
+    print (sayi1, " ", islem, " ", sayi2, " = ", sonuc)
+
+    #int(input) 
