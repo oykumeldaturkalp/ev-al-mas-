@@ -1,0 +1,18 @@
+def karelerini(x, y):
+    return (x ** 2 + y ** 2)
+
+while True:
+    a_str= input("bir sayı girin: ")
+    if (a_str == "x") : 
+        break
+    else:
+        a = int(a_str)
+    
+    b_str= input("bir sayı daha girin: ")
+    if (b_str == "x") : 
+        break
+    else:
+        b = int(b_str)
+
+    sonuc = karelerini(a, b)
+    print ("karelerinin toplamı: "  +  str(sonuc) + "\n")
